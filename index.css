@@ -38,9 +38,9 @@ header hr{
         margin-right: 3rem;
     }
     .nav h1{
-        border: none;
+        border-bottom: 1px solid #010101;
         font-size: 35px;
-        text-align: right;
+        margin-left: -10rem;
     }
 }
 /*styling for */
