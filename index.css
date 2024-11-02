@@ -1,0 +1,154 @@
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+body{
+    background: #D9D9D9;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    height: 20rem;
+    width: 20rem;
+}
+
+.logo img{
+    height: 100%;
+    margin-top: 90px;
+    margin-left: -5px;
+    width: 100%;
+}
+header hr{
+    margin-left: 0px;
+}
+.nav h1{
+    border-bottom: 1px solid #010101;
+    color: #eb631b;
+    font-size: 50px;
+    margin-left: -10rem;
+    text-align: left;
+}
+/*for mobile*/
+@media (max-width:375px) {
+    .logo img{
+        margin-bottom: -50px;
+        height: 80%;
+        width: 85%;
+    }
+    hr{
+        margin-right: 3rem;
+    }
+    .nav h1{
+        border: none;
+        font-size: 35px;
+        text-align: right;
+    }
+}
+/*styling for */
+.tag-list{
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+}
+.inner{
+    animation: loop 5s linear infinite;
+    display: flex;
+    gap: 1rem;
+    width: fit-content;
+}
+.tag{
+    align-items: center;
+    background: #ebebdf;
+    border-radius: .4rem;
+    box-shadow: 0 5px 8px white, 0 5px 7px #ebebdf;
+    display: flex;
+    gap: 0 0.2rem;
+    padding: 0.7rem 1rem;
+}
+.tag img{
+    height: 200px;
+    width: 250px;
+}
+.fade{
+    background: linear-gradient(90deg, #ebebdf, transparent 30%, transparent 70%, white);
+    inset: 0;
+    pointer-events: none;
+    position: absolute;
+}
+/*animations for the images*/
+@keyframes loop {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+/*styling for the about*/
+#about h1{
+    color: #eb631b;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.about{
+    backdrop-filter: blur(20px);
+    background: #D9D9D9;
+    border: 1px solid #ffffff2e;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 #1f26875e;
+    padding: 3px 30px; 
+    -webkit-backdrop-filter: blur(20px);
+    width: 450px;
+}
+.about h2{
+    color: #eb631b;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.about p{
+    color: #010101;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/*styling of the footer*/
+footer{
+    background: #ebebdf;
+    border-radius: 10px;
+    color: #010101;
+    margin-bottom: 0;
+}
+footer h2{
+    font-size: 30px;
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+footer li{
+    list-style: none;
+}
+footer a{
+    color: #eb631b;
+    font-size: 25px;
+}
+footer a:hover{
+    color: #010101;
+}
+footer h4 {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
