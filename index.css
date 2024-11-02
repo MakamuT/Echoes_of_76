@@ -31,16 +31,16 @@ header hr{
 @media (max-width:375px) {
     .logo img{
         margin-bottom: -50px;
-        height: 80%;
-        width: 85%;
+        height: 50%;
+        width: 65%;
     }
     hr{
-        margin-right: 3rem;
+        margin-right: 13rem;
     }
     .nav h1{
         border-bottom: 1px solid #010101;
         font-size: 35px;
-        margin-left: -10rem;
+        margin-right: 15rem;
     }
 }
 /*styling for */
