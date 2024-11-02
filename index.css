@@ -31,8 +31,8 @@ header hr{
 @media (max-width:375px) {
     .logo img{
         margin-bottom: -50px;
-        height: 50%;
-        width: 65%;
+        height: 80%;
+        width: 85%;
     }
     hr{
         margin-right: 13rem;
@@ -117,8 +117,18 @@ header hr{
 }
 .about p{
     color: #010101;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.6;
+}
+.about li{
+    color: #010101;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.about span{
+    color: #060606;
+    font-weight: 600;
 }
 
 /*styling of the footer*/
