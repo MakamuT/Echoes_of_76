@@ -31,8 +31,6 @@ header hr{
 @media (max-width:375px) {
     .logo img{
         margin-bottom: -50px;
-        height: 80%;
-        width: 85%;
     }
     hr{
         margin-right: 13rem;
@@ -145,7 +143,7 @@ p{
     box-shadow: 0 8px 32px 0 #1f26875e;
     padding: 3px 30px; 
     -webkit-backdrop-filter: blur(20px);
-    width: 450px;
+    width: 400px;
  }
 .card .img{
     border: 3px solid #ebebdf;
@@ -180,6 +178,7 @@ footer{
     border-radius: 10px;
     color: #010101;
     margin-bottom: 0;
+    width: 100vw;
 }
 footer h2{
     font-size: 30px;
