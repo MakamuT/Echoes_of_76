@@ -84,7 +84,7 @@ header hr{
     }
 }
 /*styling for the about*/
-#about h1{
+h1{
     color: #eb631b;
     font-size: 45px;
     font-weight: 600;
@@ -115,7 +115,7 @@ header hr{
     text-align: center;
     text-transform: uppercase;
 }
-.about p{
+p{
     color: #010101;
     font-size: 19px;
     line-height: 1.6;
@@ -129,6 +129,49 @@ header hr{
 .about span{
     color: #060606;
     font-weight: 600;
+}
+/*styling for meet the team*/
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+ .card{
+    backdrop-filter: blur(20px);
+    background: #D9D9D9;
+    border: 1px solid #ffffff2e;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 #1f26875e;
+    padding: 3px 30px; 
+    -webkit-backdrop-filter: blur(20px);
+    width: 450px;
+ }
+.card .img{
+    border: 3px solid #ebebdf;
+    border-radius: 5px;
+    height: 18rem;
+    margin-left: 50px;
+    width: 20rem;
+}
+.card .img img{
+    border-radius: 5px;
+    box-shadow: 3px 5px #ffffff2e;
+    height: 85%;
+    margin-top: 25px;
+    transform: rotate(15deg);
+    width: 100%;
+}
+.card h2{
+    color: #eb631b;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.card h4{
+    color: #eb631b;
+    font-size: 23px;
+    font-weight: 800;
+    text-align: center;
 }
 
 /*styling of the footer*/
